@@ -1,15 +1,19 @@
 gensim==3.6.0
 jupyter==1.0.0
 matplotlib==3.2.1
-nltk==3.4.5
-numpy==1.18.2
+nltk==3.8.1
+numpy==1.22.2
 pandas==1.0.3
-requests==2.22.0
-scikit-learn==0.20.1
-scipy==1.1.0
+requests==2.31.0
+scikit-learn==0.24.2
+scipy==1.10.0rc1
 seaborn==0.7.1
 six==1.11.0
 sklearn==0.0
 torch==1.4.0
 tqdm==4.43.0
-urllib3==1.25.6
+urllib3==1.26.18
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
