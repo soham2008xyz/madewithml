@@ -11,7 +11,7 @@ seaborn==0.13.2
 six==1.11.0
 sklearn==0.0.post12
 torch==2.2.0
-tqdm==4.43.0
+tqdm==4.66.2
 urllib3==2.2.0
 ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
 jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
