@@ -9,7 +9,7 @@ numpyencoder==0.3.0
 pandas==2.0.1
 python-dotenv==1.0.0
 ray[air]==2.7.0
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 snorkel==0.9.9
 SQLAlchemy==1.4.48
 torch==2.0.0
@@ -46,3 +46,5 @@ typer==0.9.0
 
 # Deployment
 anyscale==0.5.131
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
