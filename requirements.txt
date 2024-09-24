@@ -9,11 +9,11 @@ numpyencoder==0.3.0
 pandas==2.0.1
 python-dotenv==1.0.0
 ray==2.8.1
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 snorkel==0.9.9
 SQLAlchemy==1.4.48
 torch==2.0.0
-transformers==4.28.1
+transformers==4.38.0
 
 # Notebook
 cleanlab==2.3.1
@@ -28,7 +28,7 @@ mkdocstrings==0.21.2
 mkdocstrings[python]>=0.18
 
 # Styling
-black==23.3.0
+black==24.3.0
 flake8==6.0.0
 Flake8-pyproject==1.2.3
 isort==5.12.0
@@ -40,10 +40,20 @@ pytest==7.3.1
 pytest-cov==4.0.0
 
 # Development
-fastapi==0.95.2
+fastapi==0.109.1
 pre-commit==3.2.2
 typer==0.9.0
 
 # Deployment
 anyscale==0.5.131
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
